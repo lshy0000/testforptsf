@@ -3,17 +3,17 @@
         <attr name="fullscreenBackgroundColor" format="color" />
         <attr name="fullscreenTextColor" format="color" />
     </declare-styleable>
-    <declare-styleable name="pickerview">
-        <attr name="wheelview_gravity">
+    <declare-styleable name="pickerviewwheeview2">
+        <attr name="wheelviewv2_gravity">
             <enum name="center" value="17"/>
             <enum name="left" value="3"/>
             <enum name="right" value="5"/>
         </attr>
-        <attr name="wheelview_textSize" format="dimension"/>
-        <attr name="wheelview_textColorOut" format="color"/>
-        <attr name="wheelview_textColorCenter" format="color"/>
-        <attr name="wheelview_dividerColor" format="color"/>
-        <attr name="wheelview_dividerWidth" format="dimension"/>
-        <attr name="wheelview_lineSpacingMultiplier" format="float"/>
+        <attr name="wheelview2_textSize" format="dimension"/>
+        <attr name="wheelview2_textColorOut" format="color"/>
+        <attr name="wheelview2_textColorCenter" format="color"/>
+        <attr name="wheelview2_dividerColor" format="color"/>
+        <attr name="wheelview2_dividerWidth" format="dimension"/>
+        <attr name="wheelview2_lineSpacingMultiplier" format="float"/>
     </declare-styleable>
 </resources>

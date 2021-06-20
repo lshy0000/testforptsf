@@ -161,14 +161,14 @@ public class WheelView extends View {
         }
         CENTER_CONTENT_OFFSET = 0;
         if (attrs != null) {
-            TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.pickerview, 0, 0);
-            mGravity = a.getInt(R.styleable.pickerview_wheelview_gravity, Gravity.CENTER);
-            textColorOut = a.getColor(R.styleable.pickerview_wheelview_textColorOut, 0xFFa8a8a8);
-            textColorCenter = a.getColor(R.styleable.pickerview_wheelview_textColorCenter, 0xFF2a2a2a);
-            dividerColor = a.getColor(R.styleable.pickerview_wheelview_dividerColor, Color.BLACK);
-            dividerWidth = a.getDimensionPixelSize(R.styleable.pickerview_wheelview_dividerWidth, 2);
-            textSize = a.getDimensionPixelOffset(R.styleable.pickerview_wheelview_textSize, textSize);
-            lineSpacingMultiplier = a.getFloat(R.styleable.pickerview_wheelview_lineSpacingMultiplier, lineSpacingMultiplier);
+            TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.pickerviewwheeview2, 0, 0);
+            mGravity = a.getInt(R.styleable.pickerviewwheeview2_wheelviewv2_gravity, Gravity.CENTER);
+            textColorOut = a.getColor(R.styleable.pickerviewwheeview2_wheelview2_textColorOut, 0xFFa8a8a8);
+            textColorCenter = a.getColor(R.styleable.pickerviewwheeview2_wheelview2_textColorCenter, 0xFF2a2a2a);
+            dividerColor = a.getColor(R.styleable.pickerviewwheeview2_wheelview2_dividerColor, Color.BLACK);
+            dividerWidth = a.getDimensionPixelSize(R.styleable.pickerviewwheeview2_wheelview2_dividerWidth, 2);
+            textSize = a.getDimensionPixelOffset(R.styleable.pickerviewwheeview2_wheelview2_textSize, textSize);
+            lineSpacingMultiplier = a.getFloat(R.styleable.pickerviewwheeview2_wheelview2_lineSpacingMultiplier, lineSpacingMultiplier);
             a.recycle();//回收内存
         }
 
