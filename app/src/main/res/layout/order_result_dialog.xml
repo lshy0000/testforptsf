@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/success_order_pmsf"
+
+            android:textColor="@color/text_title_pmsf"
+            android:textSize="21sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:maxWidth="155sp"
+            android:text="@string/please_wait_pmsf"
+            android:textColor="@color/text_primary_pmsf"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tomyorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/btn_pmsf"
+                android:minHeight="25dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/tomyorder_text_pmsf"
+                android:textColor="@color/white_pmsf"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/toshop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/btn_pmsf"
+                android:minHeight="25dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/toshop_text_pmsf"
+                android:textColor="@color/white_pmsf"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/toscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/btn_pmsf"
+                android:minHeight="25dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/my_score_text_title_pmsf"
+                android:textColor="@color/white_pmsf"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/tomeasure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/btn_pmsf"
+                android:minHeight="25dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/tomeasu_text_pmsf"
+                android:textColor="@color/white_pmsf"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="48sp"
+        android:layout_height="48sp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/x_pmsf"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white_pmsf"
+        android:textSize="30sp" />
+
+</FrameLayout>

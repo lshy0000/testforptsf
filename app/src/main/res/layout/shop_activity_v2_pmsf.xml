@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/line2_pmsf"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_pmsf"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="6dp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/title_shopindex"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/shop_index_pmsf"
+                android:textColor="@color/text_primary_pmsf"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/text_primary_pmsf" />
+
+            <TextView
+                android:id="@+id/title_order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title_my_order_v2_pmsf"
+                android:textColor="@color/text_primary_pmsf"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/text_primary_pmsf" />
+
+            <TextView
+                android:id="@+id/title_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/t4_pmsf"
+                android:textColor="@color/text_primary_pmsf"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/text_primary_pmsf" />
+
+            <TextView
+                android:id="@+id/title_measureindex"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/t3_pmsf"
+                android:textColor="@color/text_primary_pmsf"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_pmsf"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/my_score_text_title_pmsf"
+                    android:textColor="@color/white_pmsf"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/my_score"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:minWidth="90dp"
+                    android:text="0"
+                    android:textColor="@color/white_pmsf"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragm"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@color/white_pmsf">
+            <!--            android:layout_marginTop="6dp"-->
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/md_fsl_pmsf"
+                android:gravity="center_vertical|end"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/t1_pmsf"
+                android:textColor="@color/text_title_pmsf"
+                android:textSize="14sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="@color/md_fsl_pmsf"
+                android:gravity="center_vertical|start"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/t2_pmsf"
+                android:textColor="@color/text_title_pmsf"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/primary_pmsf"
+                android:gravity="center"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:text="@string/back_pr_page_pmsf"
+                android:textColor="@color/white_pmsf"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/toexchange"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/secondary_pmsf"
+                android:gravity="center"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:text="@string/toexchange_text_pmsf"
+                android:textColor="@color/white_pmsf"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_pmsf_ripple"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        android:focusableInTouchMode="true">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+    </FrameLayout>
+</FrameLayout>

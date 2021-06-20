@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="statearray">
+        <item>删除</item>
+        <item>已下单 </item>
+        <item>已发货</item>
+        <item>已完成</item>
+    </string-array>
+
+
+</resources>

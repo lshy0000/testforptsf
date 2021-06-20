@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/pripage_pmsf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:clickable="true"
+        android:text="@string/pripage"
+        android:textColor="@color/selecttext2"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/priimg_pmsf"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/right_pmsf"
+        android:textColor="@color/selecttext2"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/n_pmsf"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/yuan_text_pmsf"
+        android:enabled="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="1"
+        android:textColor="@color/selecttext"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/m_pmsf_pmsf"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/yuan_text_pmsf"
+        android:enabled="true"
+        android:gravity="center"
+        android:clickable="true"
+        android:padding="1dp"
+        android:text="2"
+        android:textColor="@color/selecttext"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/q_pmsf_pmsf"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/yuan_text_pmsf"
+        android:enabled="true"
+        android:gravity="center"
+        android:clickable="true"
+        android:padding="1dp"
+        android:text="3"
+        android:textColor="@color/selecttext"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/nextimg_pmsf"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text=">"
+        android:textColor="@color/selecttext2"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/nextpage_pmsf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:clickable="true"
+        android:text="@string/next_page"
+        android:textColor="@color/selecttext2"
+        android:textSize="13sp">
+
+    </TextView>
+</LinearLayout>

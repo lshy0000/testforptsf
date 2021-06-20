@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <!---  start  -->
+    <color name="text_title_pmsf">#000000</color>
+    <color name="text_primary_pmsf">#333333</color>
+    <color name="text_hint_pmsf">#999999</color>
+    <color name="primary_pmsf">#4E8FE1</color>
+    <color name="primary_pmsf_ripple">#55ffffff</color>
+    <color name="secondary_pmsf">#FF0000</color>
+    <color name="edittext_bg_pmsf">#557C7C7C</color>
+    <color name="white_pmsf">#FFFFFFFF</color>
+    <color name="scrollbarTrackHorizontal">#7c91ac</color>
+    <color name="line_pmsf">#6A6B6D</color>
+    <color name="line2_pmsf">#fff6f6f6</color>
+    <color name="third_pmsf">#FFF600</color>
+    <color name="md_fsl_pmsf">#AEAEAE</color>
+    <!---  end  -->
+</resources>
